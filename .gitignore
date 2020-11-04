@@ -139,3 +139,10 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/pavel_guschin_repo_22_10_2020.iml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
+/home_work/les3/questions.txt
