@@ -34,5 +34,5 @@ average = {'average_profit': sum(filter(lambda x: x >= 0, companies.values())) /
 
 total = [companies, average]            # Итоговый список со словарями
 
-with open('companies_info.json', 'w', encoding='utf-8') as f:
-    json.dump(total, f)
+with open('companies_info.json', 'w') as f:
+    json.dump(total, f, ensure_ascii=False)
