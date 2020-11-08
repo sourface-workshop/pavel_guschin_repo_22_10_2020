@@ -5,20 +5,10 @@
 # Использовал файл, созданный из задания 1. Какая разница?
 
 
-import time
 
-def log(func):
-    def wrap(*args):
-        t = time.time()
-        result = func(*args)
-        print(time.time() - t)
-        return result
-    return wrap
-
-# @log
 def string_count(file: str):
     """
-    Функция написана забавы ради и больше нафиг нигде не понадобится
+    Функция написана на одно применение
 
     :param file: any text file
     :return: prints
